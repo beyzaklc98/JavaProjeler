@@ -22,12 +22,12 @@ public class M03_Iterator {
         System.out.println("");
         System.out.println(liste); // [10, 20, 30]
 
-        /* Java index yapisi olmaya collection'lardaki
-         elementlere ulasmak veya degistirmek icin
-         Iterator interface'ini olusturmustur.
-         Iterator interface oldugundan ondan obje uretmemiz mumkun degildir
-         bunun yerine bize iterator döndüren  liste.iterator() method'unu kullaniyoruz
-         */
+        /*
+        Java index yapisi olmaya collection'lardaki elementlere ulasmak veya degistirmek icin
+        Iterator interface'ini olusturmustur.
+        Iterator interface oldugundan ondan obje uretmemiz mumkun degildir
+        bunun yerine bize iterator döndüren  liste.iterator() method'unu kullaniyoruz
+        */
 
         System.out.println(liste); // [10, 20, 30]
 
@@ -36,7 +36,7 @@ public class M03_Iterator {
         System.out.println(it1.next()); // 20
         System.out.println(it1.next()); // 30
 
-        // System.out.println(it1.next()); ----> 30'dan sonra element kalmadigindan next() RTE verir *****
+        // System.out.println(it1.next()); ----> 30'dan sonra element kalmadigindan next() RTE verir *
         // Iterator'da geri donus yok, adim adim sona ulastiktan sonra
         // basa gelmek isterseniz yeniden bir iterator olusturmaniz gerekir
         // [10, 20, 30]
@@ -64,11 +64,12 @@ public class M03_Iterator {
             it3.remove();
         }
         System.out.println("loop'dan sonra liste : "+liste); // loop'dan sonra liste : []
+
         /*
-         Goruldugu gibi Iterator kullanarak yapabildigim
-         1- tum collection elementlerini yazdirmak
-         2- tum collection elementlerini silmek
-         Bu da bize yetmez
-         */
+        Goruldugu gibi Iterator kullanarak yapabildigim
+        1- tum collection elementlerini yazdirmak
+        2- tum collection elementlerini silmek
+        Bu da bize yetmez
+        */
     }
 }

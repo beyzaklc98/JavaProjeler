@@ -15,11 +15,12 @@ public class Car {
     int yil;
     public int fiyat;
 
+
     public void benzinliArac(){
         System.out.println("Bu arac benzinli motora sahiptir");
     }
 
     public void maxHiz(int hiz){
         System.out.println("Bu araba max " + hiz + " km hiz yapar" );
-    } // *****
+    }
 }

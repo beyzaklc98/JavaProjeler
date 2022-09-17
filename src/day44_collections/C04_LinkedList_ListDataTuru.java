@@ -24,7 +24,7 @@ public class C04_LinkedList_ListDataTuru {
         Eger list'imiz Integer elementlerden olusuyorsa direkt sayi yazarsak
         index olarak kabul eder. Bir variable'a atama yapar ve remove'da o
         variable'in ismini yazarsak obje olarak kabul eder.
-         */
+        */
         System.out.println(list.remove("Murtaza")); //false
 
         System.out.println(list.isEmpty()); // false list bos mu
@@ -36,12 +36,11 @@ public class C04_LinkedList_ListDataTuru {
         linkedList.add("ismail");
         System.out.println("linkedList = " + linkedList); // [Berk, ismail]
 
-        list.retainAll(linkedList); // ***** ***** *****
-        // list'deki tum elementleri linkedlist ile
-        // karsilastirir linkedlist'te olmayanlari siler
+        list.retainAll(linkedList);
+        // list'deki tum elementleri linkedlist ile *
+        // karsilastirir linkedlist'te olmayanlari siler *
 
         System.out.println("list = " + list);// [Berk]
-
 
         System.out.println("list.hashCode() = " + list.hashCode()); // 2066939
 

@@ -7,12 +7,12 @@ public class C02_CollectionsDataTuru {
     public static void main(String[] args) {
 
         /*
-          Collections <dataTuru> nu Object secmeniz durumunda
-          Collection'a farkli data turlerinden objeler koymaniza izin verir
-          Bu depolama acisindan bize esneklik saglar
-          Ancak islem yaparken tum objeleri Object olarak tanimladigimizdan
-          cok fazla casting yapmamiz gerekebilir
-         */
+        Collections <dataTuru> nu Object secmeniz durumunda
+        Collection'a farkli data turlerinden objeler koymaniza izin verir
+        Bu depolama acisindan bize esneklik saglar
+        Ancak islem yaparken tum objeleri Object olarak tanimladigimizdan
+        cok fazla casting yapmamiz gerekebilir
+        */
 
         List<String> liste = new ArrayList();
         // liste.add(5);
@@ -30,7 +30,7 @@ public class C02_CollectionsDataTuru {
         list.set(0,(Integer)list.get(0)+5);
         list.set(3,list.get(3)+" Can");
         list.set(2,!(Boolean)list.get(2));
-        System.out.println(list);
+        System.out.println(list); // [10, s, false, Ali Can]
 
         Set<Object> set1= new HashSet<>();
         set1.add(5);

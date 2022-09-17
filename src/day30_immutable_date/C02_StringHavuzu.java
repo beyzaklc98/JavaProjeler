@@ -38,8 +38,8 @@ public class C02_StringHavuzu {
         System.out.println(str5==str6); // true ***** burada new kelimesi veya + yok onun icin true
          /*
           Eger yeni String objesi olusturulurken
-          new kelimesi kullanilmaz veya **********
-          esitligin saginda + islemi olmazsa Java bakar ******************
+          new kelimesi kullanilmaz veya *
+          esitligin saginda + islemi olmazsa Java bakar *
           Eger daha once olusturulan String objelerden (String Havuzu)
           bire-bir ayni String varsa
           o objeyi ve refreransini kullanir,

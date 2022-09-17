@@ -6,8 +6,7 @@ public class C02_ListIterator {
 
     public static void main(String[] args) {
 
-        // Soru 4) Bir listedeki elementleri iterator kullanarak
-        // sondan basa dogru yazdirin
+        // Soru 4) Bir listedeki elementleri iterator kullanarak sondan basa dogru yazdirin
 
         List<Integer> liste =new ArrayList<>();
         liste.add(2);
@@ -18,8 +17,7 @@ public class C02_ListIterator {
         liste.add(14);
         liste.add(40);
 
-        // sondan basa gelebilmek icin
-        // once sona gitmek lazim
+        // sondan basa gelebilmek icin once sona gitmek lazim
         ListIterator li1= liste.listIterator();
         System.out.println(liste); // [2, 13, 56, 23, 45, 14, 40]
 

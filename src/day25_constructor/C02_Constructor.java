@@ -17,13 +17,14 @@ public class C02_Constructor {
         C01           obj1        =     new        C01();
         //class adi   objenin adı     keyword       constructer (yapıcı, kurucu, bir nevi müteahhit)
 
-        //obje olusturmak icin mutlaka yazmamız gerek keyword;
-        //constructer obje üretmek icin mutlaka olması gereken bir yapıdır
-        //bu yapıyı java kontrol eder. oop consept olması icin kalıplardan yani classlardan obje uretmemiz lazım
-        //java bu yetiyi constructer vasıtasıyla kullanıyor
-        //yani biz bir objeyi olusturmak icin classa ihtiyacımız var, classında objeyi olusturabilmesi icin constructera ihtiyacı var
-        //costructer javanın obje olusturmak icin kullandığı kod bloğudur.
-        //javamızın obje üretmesine imkan tanır.
+        //obje olusturmak icin mutlaka yazmamız gerek, keyword;
+        //constructor obje üretmek icin mutlaka olması gereken bir yapıdır, bu yapıyı java kontrol eder.
+        //oop consept olması icin kalıplardan yani classlardan obje uretmemiz lazım
+        //java bu yetiyi constructor vasıtasıyla kullanıyor.
+        //yani bizim bir objeyi olusturmak icin classa ihtiyacımız var, *
+        //classın da objeyi olusturabilmesi icin constructor'a ihtiyacı var. *
+        //constructor javanın obje olusturmak icin kullandığı kod bloğudur. *
+        //javamızın obje üretmesine imkan tanır. *
 
         Scanner scan=new Scanner(System.in);
         Random rnd=new Random();
@@ -37,21 +38,20 @@ public class C02_Constructor {
 
         // Bir objeden bahsediyorsak CONSTRUCTER CALISACAK! baska türlü mümkün değil
 
-        // ***** ***** ***** //
+        // ***** ***** *****
 
-        // aynı kalıbı kullanarak baska constructer ile farklı özelliklerde ama aynı class ın özelliklerini tasıyan
+        // aynı kalıbı kullanarak baska constructor ile farklı özelliklerde ama aynı class ın özelliklerini tasıyan
         // farklıymıs gibi görünen objeler üretebilirsiniz
         // kalıp aynı ama desenler farklıdır, dısardan baktığınızda farklı görünür.
         // ama temelde özelligi bütün objeler kalıbın özelliğini taşır,
         // yani kalıbın 2 kolu varken diğerlerinin de 2 kolu olur
-        // YANNİİİİ aynı kalıbı kullanarak birden fazla obje üretebilirz
+        // YANNİİİİ aynı kalıbı kullanarak birden fazla obje üretebiliriz.
 
         // Constructor variable veya method değildir, yepyeni bir yapıdır.
 
-        // obje olusturmayı siparis vermeye benzetebiliriz.
-        // diyelim ki erkek tshirtü üretiyoruz, bir müşteri arasa dese ki bana tshirt üret
-
         /*
+         obje olusturmayı siparis vermeye benzetebiliriz.
+         diyelim ki erkek tisortü üretiyoruz, bir müşteri arasa dese ki bana tisort üret
          bunu dediğinde bana hic bir özellik vermedi,
          sadece üret dedi o zaman ben hic tshirt bile üretmem elimde kalan ne kadar varsa hepsini gönderebilirim
          */
@@ -61,7 +61,7 @@ public class C02_Constructor {
         // yesil olan istedigimiz tarzta üretiriz
         // bana yesil v yaka üret derse public Uret("yesil, "V yaka"); parametrelerini eklerim.
 
-        // parametreleri  ne zaman kullanıyoruyz, specifik bir ürün istediğimiz zaman
+        // parametreleri  ne zaman kullanıyoruz, spesifik bir ürün istediğimiz zaman kullanıyoruz,
         // cünkü biz neyi istiyorsak parametreler bizimle constructer arasında bu iletisimi sağlar
 
         System.out.println(obj1.sayi); // 0

@@ -7,7 +7,7 @@ public class C07_Period {
 
     public static void main(String[] args) {
 
-        // iki tarih arasindaki sureyi bulma ****** ****** ******
+        // iki tarih arasindaki sureyi bulma *
 
         LocalDate tarih1=LocalDate.of(1972,1,18);
         LocalDate bugun=LocalDate.now();

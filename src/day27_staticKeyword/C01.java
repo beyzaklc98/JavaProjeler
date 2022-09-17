@@ -23,7 +23,7 @@ public class C01 {
         CLASSIN BASINDAN itibaren kod incelenmelidir.
          */
 
-        //INSTANCCE OBJEDE BASLAR OBJEDE BITER STATICSE CLASSDA BASLAR CLASSDA BITER
+        //INSTANCCE OBJEDE BASLAR OBJEDE BITER STATIC ISE CLASSDA BASLAR CLASSDA BITER
 
         C01 obj1= new C01();
         System.out.println("obj1'in rakam degeri : " + obj1.rakam); // 5
@@ -38,7 +38,7 @@ public class C01 {
         // ama instance variable de methoddan basliyorum yoksa yukari bakiyorum class level'a
 
         System.out.println("1 artirdiktan sonra obj1'in rakam degeri : " + obj1.rakam); // 6
-        System.out.println("1 artirdiktan sonra obj1'in sayi degeri : " + obj1.sayi); // 11 boyle de yazilir obj sklinde
+        System.out.println("1 artirdiktan sonra obj1'in sayi degeri : " + obj1.sayi); // boyle de yazilir obj seklinde
 
 
         C01 obj2=new C01();

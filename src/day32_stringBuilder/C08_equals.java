@@ -8,36 +8,35 @@ public class C08_equals {
         StringBuilder sb2=new StringBuilder("Java");
         String str="Java";
 
-        // ***** ***** ***** //
+        // ***** ***** *****
 
-        System.out.println(sb1.equals(sb2)); // false
-        System.out.println(sb1.equals(sb1)); // true
+        System.out.println(sb1.equals(sb2)); // false *
+        System.out.println(sb1.equals(sb1)); // true *
+
         // StringBuilder'da equals method'u ancak ayni obje olursa true doner
         // String'deki gibi dusunmemek lazim
+
         System.out.println(sb1==sb2); // false
         System.out.println(sb1==sb1); // true
 
-        System.out.println(sb1.equals(str)); // false
-        System.out.println(sb1.compareTo(sb2)); // 0
+        System.out.println(sb1.equals(str)); // false *
+        System.out.println(sb1.compareTo(sb2)); // 0 *
 
         StringBuilder sb3=new StringBuilder("Jave");
         System.out.println(sb1.compareTo(sb3)); // -4
 
         StringBuilder sb4=new StringBuilder("Jave");
         String str1="Java";
-        // System.out.println(str1.compareTo(sb4)); ----> CTE verdi ----> *****
+        // System.out.println(str1.compareTo(sb4)); ----> CTE verdi *
 
         /*
-         compareTo() iki stringBuilder'i bastan baslayarak
-         harf harf karsilastirir
-         ilk harfler ayni ise, ikincilere gecer
-         ikinciler ayni ise 3.lere gecer ve
-         ilk farkli olan harfe kadar gider
+         compareTo() iki stringBuilder'i bastan baslayarak harf harf karsilastirir
+         ilk harfler ayni ise, ikincilere gecer ikinciler ayni ise 3.lere gecer
+         ve ilk farkli olan harfe kadar gider
 
          farkli olan iki harfin ascii kodlari arasindaki farki verir
 
-         eger hic farkli harf yoksa
-         sonuc olarak 0 dondurur
+         eger hic farkli harf yoksa sonuc olarak 0 dondurur
          */
     }
 }

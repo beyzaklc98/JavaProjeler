@@ -1,6 +1,6 @@
 package day29_passByValue_immutable;
 
-public class  C04_Immutable {
+public class C04_Immutable {
 
     public static void main(String[] args) {
 
@@ -9,19 +9,19 @@ public class  C04_Immutable {
          mutable   : degistirilebilir
          en meshur immutable class : String
          */
-        String str= "Yildiz Bank";
+        String str = "Yildiz Bank";
         System.out.println(str.toUpperCase()); // YILDIZ BANK
 
         str.toLowerCase();
         System.out.println(str); // Yildiz Bank
 
-        str.substring(3,5); // sout olmadigindan yazdirmaz ----> di
+        str.substring(3, 5); // sout olmadigindan yazdirmaz ----> di
         System.out.println(str); // Yildiz Bank
 
         // Java'da String gibi metin ifadelerde kullanabilecegimiz
         // mutable StringBuilder class'i da vardir
 
-        StringBuilder sb=new StringBuilder("Java Bank");
+        StringBuilder sb = new StringBuilder("Java Bank");
         System.out.println(sb); // Java Bank
 
         sb.reverse(); // Stringi terse cevir

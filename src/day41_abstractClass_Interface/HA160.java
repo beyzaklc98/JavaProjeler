@@ -4,15 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HA160 extends FMercedes {
-    /*
-      Abstract parent silsilesinden gelen
-      ilk concrete class
+      /*
+      Abstract parent silsilesinden gelen ilk concrete class
       Parent'i olan tum class'daki abstract method'lari
       concrete hale donusturmek (override etmek) ZORUNDADIR
-      Bu kuralin istisnasi
-      parent class'lardan herhangi birinde
+
+      Bu kuralin istisnasi parent class'lardan herhangi birinde
       concrete hale donusturulmus, abstract method'lardir
-     */
+      */
 
     public static void main(String[] args) {
         HA160 arb1= new HA160();
@@ -22,7 +21,7 @@ public class HA160 extends FMercedes {
         // mercedes'de concrete
 
         // EToyota arb3= new EToyota();
-        EToyota arb4= new GCorolla(); // ??????? Corolla abstract degil onun icin obje uretilebildi
+        EToyota arb4= new GCorolla(); // Corolla abstract degil onun icin obje uretilebildi *
         // Abstract class'lar constructor barindirir ama obje uretemezler
         // Toyota class'i abstract class oldugundan obje uretilemez
 
@@ -34,6 +33,6 @@ public class HA160 extends FMercedes {
         Abstract bir class'in ozelliklerini tasiyan bir obje olusturmak istedigimizde
         Data turunu istedigimiz abstract class
         constructor'i ise child'i olan concrete bir class'dan seceriz
-         */
+        */
     }
 }

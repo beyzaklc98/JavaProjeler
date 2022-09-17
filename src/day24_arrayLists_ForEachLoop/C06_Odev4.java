@@ -13,6 +13,7 @@ public class C06_Odev4 {
 
         String[] sehirler ={"Istanbul", "Ankara","Mersin","Konya","Kastamonu"};
         String istenmeyenHarf="r";
+
         List<String> kalanlar=new ArrayList<>();
         for (int i = 0; i < sehirler.length; i++) {
             if (!sehirler[i].contains(istenmeyenHarf)){
@@ -21,6 +22,7 @@ public class C06_Odev4 {
         }
         //loop bittiginde istenmeyen harf icermeyen sehirler, listeye eklenmis olacak
         System.out.println(kalanlar); // [Istanbul, Konya, Kastamonu]
+
         // yeni bir array olusturup, listeyi ona aktaralim
         String[] kalanlarArrayi=new String[kalanlar.size()]; // *****
         for (int i = 0; i <kalanlarArrayi.length ; i++) {

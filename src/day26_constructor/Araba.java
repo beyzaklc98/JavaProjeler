@@ -16,7 +16,8 @@ public class Araba {
     public Araba(){
     }
 
-    // ***** ***** ***** //
+    // ***** ***** *****
+
     /*
     biz herhangi bir constructor olusturdugumuzda
     Java default constructor'i siler
@@ -24,6 +25,7 @@ public class Araba {
     mutlaka default constructor yerine
     parametresiz bir constructor olusturmaliyiz
      */
+
     public void benzinliArac(){
         System.out.println("Bu arac benzinli motora sahiptir");
     }

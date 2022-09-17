@@ -12,10 +12,8 @@ public class Tasit {
     // baska class'larin private oldugu icin erisemedigi
     // tasitTuru bilgisini, class icinden alip
     // istenen farkli class'lar return ediyor
-    public void setTasitTuru(String tasitTuru) {
-        this.tasitTuru = tasitTuru;
-    }
-    // return olmadığı icin bu methodun cağırıldığı tasitrunner classinden yazdirilamaz
+    public void setTasitTuru(String tasitTuru) { this.tasitTuru = tasitTuru; }
+    // return olmadığı icin bu methodun cağırıldığı tasitRunner classinden yazdirilamaz
     // burada bir satırlık islem yapıyor o bir satırlık islemde
     // bizim gönderdiğimiz parametreyi instence variable a atıyor.
 

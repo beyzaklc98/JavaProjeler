@@ -11,6 +11,7 @@ public class C11_Odev2 {
 
         String[] arr1={"Ali","Veli","Can","Ayse"};
         String[] arr2={"Ali","Hasan","Ayse","Enes"};
+
         List<String> ortakIsimler=new ArrayList<>();
         for (String each1: arr1
         ) {

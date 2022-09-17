@@ -17,6 +17,7 @@ public class C01_Exceptions {
     private static void calis() {
 
         throw new RuntimeException("Çoook çalış");
+
         // throw ile kontrollu exception olusturken
         // parametre olarak istedigimiz hata mesajini girebiliriz.
     }

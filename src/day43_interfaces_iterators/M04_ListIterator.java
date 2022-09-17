@@ -7,9 +7,9 @@ public class M04_ListIterator {
     public static void main(String[] args) {
 
         /*
-         ListIterator Iterator'interface'nin child interface'dir
-         ama daha cok method'a sahiptir
-         */
+        ListIterator Iterator interface'nin child interface'dir
+        ama daha cok method'a sahiptir
+        */
 
         List<Integer> liste= new ArrayList<>();
         liste.add(10);
@@ -22,8 +22,8 @@ public class M04_ListIterator {
         ListIterator lit1= liste.listIterator();
 
         while(lit1.hasNext()){
-            temp=(Integer)lit1.next()+3; // burada sag taraf lit1.next() objedir
-                                         // ve Integer de objenin child'di oldugu icin sorumluluk aldik
+            temp=(Integer)lit1.next()+3; // burada sag taraf lit1.next() objedir *
+                                         // ve Integer de objenin child'di oldugu icin sorumluluk aldik *
             lit1.set(temp);
         }
         System.out.println(liste); // [13, 23, 33]

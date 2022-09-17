@@ -11,7 +11,7 @@ public class C09_ForeachLoop {
         List<Integer> liste=new ArrayList<>();
 
         // array'deki tum elemanlari inceleyelim, tek sayi olanlari list'e atayalim
-        for (int each: arr  // gelecek datalarin turu, loop icinde ne isim verdigim, neren aldigim
+        for (int each: arr  // gelecek datalarin turu, loop icinde ne isim verdigim, nerden aldigim
         ) {
             if (each%2==1){
                 liste.add(each);

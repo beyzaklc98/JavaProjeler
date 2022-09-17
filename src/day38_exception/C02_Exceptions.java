@@ -8,6 +8,7 @@ public class C02_Exceptions {
         int b= 50;
         int sayac = 1;
         while(sayac<100){
+
         /*
         try blogu yapmaya calistigimiz ama risk oldugunu dusundugumuz
                   islemleri yazmak icin kullanilir
@@ -16,6 +17,7 @@ public class C02_Exceptions {
         catch blogu  : Java'ya soyledigimiz exception(isnisnai durum) gerceklesirse
                    Java'nin yapmasini istedigimiz islem
          */
+
             try {
                 System.out.println(a/b);
             } catch (Exception e) {

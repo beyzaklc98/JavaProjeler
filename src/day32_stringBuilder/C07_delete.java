@@ -11,8 +11,7 @@ public class C07_delete {
         sb.deleteCharAt(7);
         System.out.println(sb); // Java hezaman guzel
 
-        // ***** ***** ******
-        // bastan baslayarak her loop'da ilk harfi silip kalani yazdiralim
+        // bastan baslayarak her loop'da ilk harfi silip kalani yazdiralim *
         int son=sb.length();
 
         for (int i = 0; i <son ; i++) {

@@ -12,7 +12,7 @@ public abstract class EToyota extends DAraba{
         // public abstract class EToyota extends DAraba{ ----> class'inda override etmeden once
         // altini ciziyordu ve override edilmesi lazim diye uyari veriyordu
     }
-    /*
+     /*
      Parent class'daki standart belirleyici method'lar
      (abstract method)'larin tamami child class tarafindan override edilmelidir.
      concrete method'larin override edilme mecburiyeti yoktur

@@ -5,14 +5,14 @@ public class FMercedes extends DAraba{
     @Override
     protected void yakit() {
         /*
-          abstract bir parent'in concrete child class inherit ederse
-          parent abstract class'daki tum abstract method'lari
-          override etmek zorundadir
+        Abstract bir parent'in concrete child class inherit ederse
+        parent abstract class'daki tum abstract method'lari
+        override etmek ZORUNDADIR
 
-          abstract bir class, abstract baska bir class'i parent edinirse
-          parent class'daki tum abstract method'lari override etmek
-          ZORUNDA DEGILDIR
-         */
+        Abstract bir class, abstract baska bir class'i parent edinirse
+        parent class'daki tum abstract method'lari override etmek
+        ZORUNDA DEGILDIR
+        */
     }
     @Override
     protected void kaporta() {

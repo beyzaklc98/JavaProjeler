@@ -13,6 +13,7 @@ public class C07_Odev5 {
             Scanner scan = new Scanner(System.in);
             System.out.println("bir sayi giriniz");
             int sayi = scan.nextInt();
+
             List<Integer> fibonacci = new ArrayList<Integer>();
 
             int a = 0, b = 1;

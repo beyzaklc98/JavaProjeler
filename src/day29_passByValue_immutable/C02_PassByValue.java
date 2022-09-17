@@ -13,6 +13,7 @@ public class C02_PassByValue {
           Eger method'da array veya list'in kendisi degistirilirse
           passByValue ozelligi sebebiyle Java degisen degeri degil
           array veya list'in orijinal degerini alir
+
           Ancak array veya list degistirilmeden
           sadece icindeki elemanlar degistirilirse
           Java obje degismedigi icin(referans ayni),
@@ -30,6 +31,7 @@ public class C02_PassByValue {
         int[] arr={3,5,8,10};
         arrayiDegistir(arr);
         System.out.println("method call'dan sonra main method'da array : " + Arrays.toString(arr));
+        // method call'dan sonra main method'da array : [3, 5, 8, 10]
     }
     public static void arrayiDegistir(int[] arr) {
         arr=new int[3];
@@ -38,5 +40,6 @@ public class C02_PassByValue {
         arr[1]= rnd.nextInt(100);
         arr[2]= rnd.nextInt(100);
         System.out.println("method'da array : " + Arrays.toString(arr));
+        // method'da array : [20, 0, 8]
     }
 }

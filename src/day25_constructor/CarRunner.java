@@ -17,7 +17,7 @@ public class CarRunner {
         Herhangi bir obje uzerinden bir variable yazdirmaya calistigimizda
         Java degeri su siralama ile arar
         1- o obje olusturulduktan sonra bir deger atandi mi ?
-        2- Objenin olusturuldugu class'da variable'a bir deger atanmis mi bakar
+        2- Objenin olusturuldugu class'da variable'a bir deger atanmis mi bakar, atanmamissa
         3- O zaman data turune gore Java default degeri atar
          */
     }

@@ -5,8 +5,7 @@ public class C02_Overriding {
     public static void main(String[] args) {
 
         /*
-        Farkli class'larda ayni isim ve signature'da
-        method'lar olusturabiliriz
+        Farkli class'larda ayni isim ve signature'da method'lar olusturabiliriz
         cunku her bir class kendi icinde calisir
         */
     }

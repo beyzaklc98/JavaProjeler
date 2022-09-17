@@ -1,8 +1,7 @@
 package day25_constructor;
 public class C03 {
     /*
-    proje olustururken bazi class'lar run etmek icin degil
-    variable ve method olusturup
+    proje olustururken bazi class'lar run etmek icin degil variable ve method olusturup
     bunlari baska class'lardan kullanmak icin olusturulur
      */
     /*

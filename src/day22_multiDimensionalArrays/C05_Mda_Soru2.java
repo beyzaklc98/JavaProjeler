@@ -12,6 +12,7 @@ public class C05_Mda_Soru2 {
         int carpim=1;
         for (int i = 0; i <arr.length ; i++) {
             for (int j = 0; j <arr[i].length ; j++) {
+
                 if (j==arr[i].length-1){
                     carpim*=arr[i][j];
                 }

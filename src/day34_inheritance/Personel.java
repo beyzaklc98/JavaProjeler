@@ -3,10 +3,9 @@ package day34_inheritance;
 public class Personel {
 
          /*
-          Eger parent class olacak sekilde tasarladiginiz bir class varsa
-          veya ilerde bu class'i parent yapmak isteyenler olabilir diyorsaniz
-          variable ve method'larin a
-          access modifier'ini protected
+         Eger parent class olacak sekilde tasarladiginiz bir class varsa
+         veya ilerde bu class'i parent yapmak isteyenler olabilir diyorsaniz
+         variable ve method'larina access modifier'ini protected yapin
          */
     protected int persNo;
     protected String isim="Isim belirtilmedi";
@@ -19,6 +18,6 @@ public class Personel {
         System.out.println("Tum personel statusune gore mesai yapar");
     }
     protected void fazlaMesaiUcreti(){
-        System.out.println("personel fazla mesai ucretini statusune gore alir");
+        System.out.println("Personel fazla mesai ucretini statusune gore alir");
     }
 }

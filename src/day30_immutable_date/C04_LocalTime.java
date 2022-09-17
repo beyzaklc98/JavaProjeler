@@ -25,6 +25,6 @@ public class C04_LocalTime {
         System.out.println(time1.getSecond()); // 32 ---> saniye al
         System.out.println(time1.plusSeconds(10000)); // 21:18:12.631502800 ---> arti saniye
         System.out.println(time1.minusMinutes(200)); // 15:13:59.829050300 ---> eksi dakika
-        System.out.println(time1.withHour(3)); // saati 3 yapip yazdirdi ****** ****** ******
+        System.out.println(time1.withHour(3)); // saati 3 yapip yazdirdi *
     }
 }
